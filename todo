@@ -1,0 +1,15 @@
+
+problem in rand mode：
+1，brute is likely to enter a deep loop in random mode
+	> there seems to be no error, the strategy to fill the sudoku
+	seems to be fill the nearby hole first
+
+2, calc mode may got a same answer more than once				+
+	after trim in analyze, pos_ct not update in some case
+
+todo:
+1, recheck the main loop										+
+2, analyze optimize
+	> may not worth ..
+3. neccessary check conflict in sync_pos_avail					+
+
