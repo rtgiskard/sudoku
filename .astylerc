@@ -1,0 +1,70 @@
+# .astylerc
+
+# Brace Style Options
+style=linux		# A8
+
+# Tab Options
+#indent=spaces=#	# s#
+indent=tab=4		# t#
+#indent=force-tab=#	# T#
+
+# Brace Modify Options
+#attach-namespaces	# xn
+attach-classes		# xc
+#attach-inlines		# xl
+attach-extern-c		# xk
+attach-closing-while	# xV
+
+# Indentation Options
+#indent-classes		# C
+indent-modifiers	# xG
+indent-switches		# S
+#indent-cases		# K
+#indent-namespaces	# N
+indent-after-parens	# xU
+#indent-labels		# L
+indent-preproc-block	# xW
+indent-preproc-define	# w
+#indent-preproc-cond	# xw
+indent-col1-comments	# Y
+
+# Padding Options
+break-blocks		# f
+#break-blocks=all	# F
+pad-oper		# p
+pad-comma		# xg
+#pad-paren		# P
+#pad-paren-out		# d
+#pad-first-paren-out	# xd
+#pad-paren-in		# D
+pad-header		# H
+#unpad-paren		# U
+#delete-empty-lines	# xe
+#fill-empty-lines	# E
+align-pointer=middle	# k2
+
+# Formatting Options
+break-one-line-headers	# xb
+#add-braces		# j
+remove-braces		# xj
+#break-return-type	# xB
+attach-return-type	# xf
+max-code-length=94  	# xC#
+break-after-logical	# xL
+
+#mode=c
+#mode=cs
+#mode=java
+
+# Objective‑C Options
+#unpad-method-prefix	# xR
+#pad-return-type	# xq
+#pad-param-type		# xS
+align-method-colon	# xM
+
+# Other Options
+suffix=.astyle.ori
+lineend=linux	  	# z2
+#verbose		# v
+
+# vi: set ts=8 ro :
